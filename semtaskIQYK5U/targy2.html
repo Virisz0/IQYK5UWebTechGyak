@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta content="text/html" charset="UTF-8">
+        <link rel="stylesheet" href="stilus.css">
+    </head>
+    <body style="background-color: transparent;">
+        <table>
+            <tr>
+                <td>
+        <form id="urlap" name="urlap" action="ertekeles.php" method="GET" target="_self">
+            Név: <input type="text" id="nev" name="nev" placeholder="írd be a neved" />
+            <br><br>
+            Életkor: <input type="number" name="eletkor" min="10" max="80" style="width:40px"> <br /><br />
+            Válassz autót:<select name="cars">
+                <option value="francia">francia </option>
+                <option value="német"> német </option>
+                <option value="japán"> japán </option>
+                <option value="amcsi"> amerikai </option>
+            </select><br><br>
+            Mióta van jogosítványod?: <input type="number" name="jogsi" min="0" max="70" step="1" style="width:60px">
+            <br /><br />
+            
+            Mennyire szereted az autókat?: &nbsp; &nbsp; &nbsp; 0<input type="range" name="autok" min="0"
+             max="10" style="width: 300px">10
+            </form>
+            <input type="submit" value="küldés" form="urlap" formaction="ertekeles.php" formmethod="POST" />
+                </td>
+                <td>
+                <h2>Tárgy tematikus leírása:</h2>
+                A gépkocsi villamos hálózata. Indító akkumulátorok. Karbantartásmentes akkumulátorok. Generátorok. Feszültség szabályozás.
+                 Indítómotorok. Gyújtóberendezések. Benzinbefecskendező rendszerek. Diesel-befecskendező rendszerek.
+                  Automata sebességváltó. Blokkolás gátló fékrendszer. Kipörgés szabályozás. Járműdinamika szabályozás.
+                   Személygépkocsi világítási berendezései. Fedélzeti műszerek. Ablaktörlő és páramentesítő rendszerek. Vezetői asszisztensek.
+                 Légzsák és pirotechnikai övfeszítők. Riasztó készülékek. Rádiófrekvenciás zavarvédelem.
+            </td></tr>
+    </table>
+    </body>
+</html>

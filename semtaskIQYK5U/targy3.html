@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>semtaskIQYK5Ut3</title>
+        <meta content="text/html" charset="UTF-8">
+        <link rel="stylesheet" href="stilus.css"/>
+    </head>
+
+    <body style="background-color: transparent;">
+    <div style="text-align: center;">
+<video id="ter" width="640" controls>
+<source src="tervid.mp4" type="video/mp4">
+A böngésződ nem támogatja a HTML videók lejátszását. </video>
+    <br><br>
+<ul>
+<li><button onClick="ter.play()" class="vid-button">indítás</button></li>
+<li><button onClick="ter.pause()"class="vid-button">leállítás</button></li>
+<li><button onClick="indit_leallit()"class="vid-button">indítás / leállítás</button></li>
+
+<li><button onClick="ter.volume=0"class="vid-button">néma</button></li>
+<li><button onClick="ter.volume=1"class="vid-button">hang</button></li>
+
+<li><button onclick="ter.playbackRate=0.5" class="vid-button">lassú</button></li>
+<li><button onClick="ter.playbackRate=1"class="vid-button">normál</button></li>
+<li><button onClick="ter.playbackRate=2"class="vid-button">gyors</button></li>
+
+<li><button onClick="ter.width=150"class="vid-button">kicsi</button> </li>
+<li><button onclick="ter.width=640"class="vid-button">normál</button> </li>
+
+<li><button onClick="alert(ter.ended)"class="vid-button">vége?</button></li>
+<li><button onClick="alert(ter.duration)"class="vid-button">videó hossza (mp)</button></li>
+<li><button onClick="alert (ter.currentTime)"class="vid-button">mp</button></li>
+</ul>
+</div>
+<script>
+var ter = document.getElementById('ter');
+function indit_leallit() {
+if (ter.paused) {
+ter.play();
+}
+else {
+ter.pause();
+}
+}
+</script>
+<hr>
+<section>
+    <h2>GEVAU513B Terepi műszerezés</h2>
+    <h3>Félévközi követelmények,aláírás feltétele</h3>
+    Félévközi számokérés módja: 1 db zárthelyi dolgozat. Aláírás megszerzésének feltétele: Az előadások 70 %-ának látogatása és a gyakorlatokon való aktív részvétel, legalább elégséges zárthelyi dolgozat.
+    <h3>Félév teljesítés feltétele</h3>
+    Félévközi számokérés módja: 1 db zárthelyi dolgozat. Aláírás megszerzésének feltétele: Az előadások 70 %-ának látogatása és a gyakorlatokon való aktív részvétel, legalább elégséges zárthelyi dolgozat.
+    <h3>Tárgy tematikus leírása:</h3>
+    Hőmérsékletmérés, nyomásmérés, szintmérés, térfogatáram mérés, tömegáram mérés, kromatográfia, vízanalitikai mérések. Szabályozószelepek. P&I rajzok, tervdokumentációk. Műszerek kiválasztása. Foundation Fieldbus buszrendszer, „Control in the Field”. HART kommunikáció.Wireless HART rendszerek felépítése, konfigurálása, vizsgálata. Eszközmenedzsment szoftverrendszer, szelepdiagnosztika. Robbanásveszélyes terek műszerezése. Rb-s terekben használatos ipari kommunikációs rendszerek.
+     Példák vegyipari és olajipari technológiák komplex műszerezésére. 
+</section>
+<hr>
+forrás: <a href="https://mazsola.iit.uni-miskolc.hu/M.edu/targyak/targy?targy_dc=_jfcbcddachddHDFce">https://mazsola.iit.uni-miskolc.hu/M.edu/targyak/targy?targy_dc=_jfcbcddachddHDFce</a>
+</body>
+</html>
